@@ -1,0 +1,28 @@
+/* Para comentarios, mismos acc directo */
+
+.tituloPrincipal{
+    background-color: yellow;
+    color: yellowgreen;
+    font-size: 36px;
+}
+.fuenteGrande{
+    font-size: ;
+}
+
+#noticias {
+    background-color: wheat;
+    color: black;
+}
+
+
+main{
+    color:tomato 
+}
+
+#destacado{
+    color: rgba(140, 0, 255, 0.774)
+}
+
+.titular{
+    color: black 
+}

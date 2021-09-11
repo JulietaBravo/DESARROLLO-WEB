@@ -1,0 +1,62 @@
+
+.header-index{
+    background-color: #2B2D42;
+    color: #D90429;
+    height: 120px;
+    font-size: 20px;
+    
+}
+.nav-index{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    padding: 0 30px;
+
+}
+main{
+    background-color: #B1A7A6;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.a_index{
+    color: #EDF2F4;
+}
+footer{
+    background-color:#ef233c;
+    color: white;
+    text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+}
+table{
+    background-color: #161A1D;
+    color:whitesmoke
+}
+form{
+    background-color: #EDF2F4;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+
+}
+.header-secciones{
+    color:whitesmoke;
+    background-color: #2B2D42;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+
+
+}
+.ul_index{
+    list-style-type: none;
+    text-align: center;
+}
+.li_index{
+    display: inline;
+    margin-right: 10px;
+}
+.opcion-trabaja{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+
+

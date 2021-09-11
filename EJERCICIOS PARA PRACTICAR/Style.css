@@ -1,0 +1,55 @@
+/* Para comentarios, mismo acceso directo */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.tituloPrincipal {
+    background-color: orange;
+    color:blue;
+}
+.fuente-grande{
+    font-size: 36px;
+}
+
+#productos {
+    background-color: coral;
+    color: crimson;
+}
+
+#productos .tituloProductos{
+    color:whitesmoke;
+}
+
+#productos .texto{
+    color: black;
+}
+
+main{
+    color:tomato;
+}
+
+#destacado{
+    color: red; 
+
+}
+
+.titular{
+    color:aqua !important; /* Es una mala práctica */
+}
+.tablasPractica{
+    background-color: aquamarine;
+    color:brown;
+    background-image: url(./multimedia/imagen-dw.jpg);
+    
+}
+.divPractica{
+    background-color: yellowgreen;
+    color: black;
+    padding: 50px;
+    border: black 2px solid ;
+    margin: 20px;
+    display: inline;
+    height: auto;
+    width: auto;
+}

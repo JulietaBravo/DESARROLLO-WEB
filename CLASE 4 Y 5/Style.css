@@ -1,0 +1,7 @@
+header{
+    background-color: yellowgreen;
+}
+ul{
+    list-style: none;
+    list-style: url(); /* Puedo traer una imágen para usar como viñeta */
+}

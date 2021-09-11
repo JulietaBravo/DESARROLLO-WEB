@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+  <form action="enviar.php" method="GET">
+    <fieldset>
+        <legend>Formulario de contacto</legend>
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre"> <!-- Tipo texto -->
+    <br> <br>
+    <label for="email">Email</label>
+    <input type="email" id="email" required>  <!-- Tipo mail -->
+    <br> <br>
+    <label for="password">Contraseña</label>
+    <input type="password" id="password"> <!-- Tipo contraseña, no muestra caracteres -->
+
+    <br> <br>
+
+    <input type="radio" name="sexo" id="">Hombre<input type="radio" name="sexo" id="">Mujer 
+    <br> <br>
+
+    <input type="checkbox" name="acepta" id="">Acepta los términos
+
+    <br> <br>
+
+    <label for="paises"></label>
+    <select name="paises" id="paises">
+        <option value="Arg">Argentina</option>
+        <option value="Chi">Chile</option>
+        <option value="Per" selected>Perú</option>
+    </select>
+
+    <br> <br>
+    <input type="submit" value="Enviar ahora">
+    <input type="reset" value="Limpiar">
+    <input type="button" value="Para JS">
+</fieldset> 
+</form>
+    
+
+
+
+
+
+
+</body>
+</html>

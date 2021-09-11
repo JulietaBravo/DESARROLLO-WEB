@@ -1,0 +1,23 @@
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+@media (max-width: 425px) {
+    .container{
+        background-color: violet;
+    }
+}
+
+@media (min-width: 600px) { /* A partir de 600 se van a cambiar a las propiedades que están acá definidas */
+    .container{
+        background-color: yellowgreen;
+    }
+}
+
+@media (min-width: 768px) { /* A partir de 768 se van a cambiar a las propiedades que se definen acá */
+    .container{
+        background-color: yellow;
+    }
+}

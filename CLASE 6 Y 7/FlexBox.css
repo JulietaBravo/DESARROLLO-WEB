@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex-container{ /* Contenedor padre */
+    background-color: blueviolet;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
+.Box{
+    height: 150px;
+    background-color: aquamarine;
+    margin: 5px;
+    font-size: 2rem;
+    border: 2px solid black;
+}
